@@ -31,8 +31,8 @@ async def send_notification_telegram(message, bot_token, chat_ids):
         print(f"Failed to send Telegram notification: {e}")
 
 # Product URL to monitor
-# product_url = "https://www.amazon.sa/-/en/AMD-9800X3D-16-Thread-Desktop-Processor/dp/B0DKFMSMYK?sr=8-1"
-product_url = "https://www.amazon.sa/-/en/AMD-RyzenTM-9900X-24-Thread-Processor/dp/B0D6NN87T8/ref=sr_1_1?sr=8-1&ufe=app_do%3Aamzn1.fos.495cb95e-fb22-4946-8f40-b4235b181a9a"
+product_url = "https://www.amazon.sa/-/en/AMD-9800X3D-16-Thread-Desktop-Processor/dp/B0DKFMSMYK?sr=8-1"
+# product_url = "https://www.amazon.sa/-/en/AMD-RyzenTM-9900X-24-Thread-Processor/dp/B0D6NN87T8/ref=sr_1_1?sr=8-1&ufe=app_do%3Aamzn1.fos.495cb95e-fb22-4946-8f40-b4235b181a9a"
 
 
 # Headers for the HTTP request (to mimic a browser request)
